@@ -78,28 +78,30 @@ body {
 /* line 14, ../sass/style.scss */
 .opt-block {
   display: inline-block;
-  padding: 1%;
+  padding: 5%;
 }
 
 /* line 19, ../sass/style.scss */
 .logo {
   font-size: 3em;
-  color: #E2E2DE;
+  color: #DEA126;
 }
 
 /* line 25, ../sass/style.scss */
 li {
   float: left;
-  width: 33%;
+  width: 32%;
+  border: solid 0.1em #91AD3D;
+  margin: 0.5%;
 }
 
-/* line 30, ../sass/style.scss */
+/* line 32, ../sass/style.scss */
 img {
   height: 100%;
   width: 100%;
 }
 
-/* line 35, ../sass/style.scss */
+/* line 37, ../sass/style.scss */
 ul {
   overflow: hidden;
 }
