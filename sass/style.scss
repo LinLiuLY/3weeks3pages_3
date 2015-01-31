@@ -1,2 +1,37 @@
 @import "compass/reset";
 @import "compass/css3";
+
+body {
+	font-family:"europa";
+}
+
+.center-container {
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
+
+.opt-block {
+    display: inline-block;
+    padding: 1%;
+}
+
+.logo {
+    font-size: 3em;
+    color: #E2E2DE;
+}
+
+
+li {
+	float:left;
+	width:33%;
+}
+
+img {
+	height:100%;
+	width:100%;
+}
+
+ul {
+	overflow:hidden;
+}
