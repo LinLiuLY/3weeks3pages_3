@@ -65,7 +65,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 4, ../sass/style.scss */
 body {
-  font-family: "europa";
+  font-family: "'Open Sans',sans-serif";
   background-color: #EDF4ED;
 }
 
@@ -85,11 +85,12 @@ body {
 
 /* line 21, ../sass/style.scss */
 .logo {
-  font-size: 3em;
+  font-size: 4em;
   color: #007722;
+  font-style: italic;
 }
 
-/* line 27, ../sass/style.scss */
+/* line 28, ../sass/style.scss */
 li {
   float: left;
   width: 32%;
@@ -97,13 +98,13 @@ li {
   margin: 0.5%;
 }
 
-/* line 34, ../sass/style.scss */
+/* line 35, ../sass/style.scss */
 img {
   height: 100%;
   width: 100%;
 }
 
-/* line 39, ../sass/style.scss */
+/* line 40, ../sass/style.scss */
 ul {
   overflow: hidden;
 }

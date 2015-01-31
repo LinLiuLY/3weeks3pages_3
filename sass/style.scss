@@ -2,7 +2,7 @@
 @import "compass/css3";
 
 body {
-	font-family:"europa";
+	font-family:"'Open Sans',sans-serif";
 	background-color:#EDF4ED;
 }
 
@@ -19,8 +19,9 @@ body {
 }
 
 .logo {
-    font-size: 3em;
+    font-size: 4em;
     color: #007722;
+    font-style:italic;
 }
 
 
