@@ -66,28 +66,30 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 4, ../sass/style.scss */
 body {
   font-family: "europa";
+  background-color: #EDF4ED;
 }
 
-/* line 8, ../sass/style.scss */
+/* line 9, ../sass/style.scss */
 .center-container {
   margin-left: 20%;
   margin-right: 20%;
   text-align: center;
+  margin: 0 15%;
 }
 
-/* line 14, ../sass/style.scss */
+/* line 16, ../sass/style.scss */
 .opt-block {
   display: inline-block;
-  padding: 5%;
+  margin: 5%;
 }
 
-/* line 19, ../sass/style.scss */
+/* line 21, ../sass/style.scss */
 .logo {
   font-size: 3em;
-  color: #DEA126;
+  color: #007722;
 }
 
-/* line 25, ../sass/style.scss */
+/* line 27, ../sass/style.scss */
 li {
   float: left;
   width: 32%;
@@ -95,13 +97,13 @@ li {
   margin: 0.5%;
 }
 
-/* line 32, ../sass/style.scss */
+/* line 34, ../sass/style.scss */
 img {
   height: 100%;
   width: 100%;
 }
 
-/* line 37, ../sass/style.scss */
+/* line 39, ../sass/style.scss */
 ul {
   overflow: hidden;
 }
