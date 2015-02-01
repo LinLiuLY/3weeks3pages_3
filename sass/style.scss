@@ -32,6 +32,15 @@ li {
   	margin: 0.5%;
 }
 
+a {
+    display: inline-block;
+}
+
+a:hover{
+    -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(90deg);
+    -webkit-transition:1.5s;
+}
+
 img {
 	height:100%;
 	width:100%;

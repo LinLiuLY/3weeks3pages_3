@@ -99,12 +99,23 @@ li {
 }
 
 /* line 35, ../sass/style.scss */
+a {
+  display: inline-block;
+}
+
+/* line 39, ../sass/style.scss */
+a:hover {
+  -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(90deg);
+  -webkit-transition: 1.5s;
+}
+
+/* line 44, ../sass/style.scss */
 img {
   height: 100%;
   width: 100%;
 }
 
-/* line 40, ../sass/style.scss */
+/* line 49, ../sass/style.scss */
 ul {
   overflow: hidden;
 }
