@@ -104,15 +104,16 @@ li {
 a {
   display: block;
   height: 100%;
-  transition: transform 1s;
+  transition: transform 3s;
+  transform-style: preserve-3d;
 }
 
-/* line 43, ../sass/style.scss */
+/* line 45, ../sass/style.scss */
 a:hover {
   transform: rotateY(-180deg);
 }
 
-/* line 47, ../sass/style.scss */
+/* line 49, ../sass/style.scss */
 .photo {
   position: absolute;
   left: 0;
@@ -122,12 +123,19 @@ a:hover {
   backface-visibility: hidden;
 }
 
-/* line 56, ../sass/style.scss */
+/* line 58, ../sass/style.scss */
 .rotate {
   transform: rotateY(-180deg);
+  transform: translateZ(100px);
 }
 
-/* line 60, ../sass/style.scss */
+/* line 63, ../sass/style.scss */
+.rotate {
+  transform: rotateY(-360deg);
+  transform: translateZ(-100px);
+}
+
+/* line 68, ../sass/style.scss */
 ul {
   overflow: hidden;
 }

@@ -37,7 +37,9 @@ li {
 a {
     display: block;
     height:100%;
-    transition: transform 1s;
+    transition: transform 3s;
+    // perspective: 1000px;
+    transform-style:preserve-3d; 
 }
 
 a:hover {
@@ -55,6 +57,12 @@ a:hover {
 
 .rotate {
     transform:rotateY(-180deg);
+    transform: translateZ(100px);
+}
+
+.rotate {
+    transform:rotateY(-360deg);
+    transform: translateZ(-100px);
 }
 
 ul {
